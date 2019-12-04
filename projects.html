@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/home_style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+	<header>
+		<a class="nav-element" href="index.html">Home</a>
+		<a class="nav-element" href="projects.html">Projects</a>
+		<a class="nav-element" href="contact-me.html">Contact Me</a>
+	</header>
+
+	<div class="project-banner">
+		<h1 class="project-label"> PROJECTS </h1>
+	</div>
+		<div id="carousel">
+			<div id="carousel-controls">
+				<button id="button-previous" class="hidden">
+					<img class="arrow-image" src="assets/images/left_arrow.jpg" alt="Previous">
+				</button>
+				<button id="button-next">
+					<img class="arrow-image" src="assets/images/right_arrow.jpg" alt="Next">
+				</button>
+			</div>
+
+			<div id="carousel-image-row">
+
+				<div class="carousel-image">
+					<a href="https://github.com/Pedram26/markover" target="_blank"><img class="image1" src="assets/images/nlp2.jpg"></a>
+					<a class="project-title" href="https://github.com/Pedram26/markover" target="_blank"><h1> Markover </h1> </a>
+					<div class="project-desc">
+						A natural language generator that uses Probabilistic Markov Chain to train a model how to speak and have
+						it generate new text for you based on a given input text.
+					</div>
+				</div>
+				<div class="carousel-image">
+					<a href="https://github.com/Pedram26/wasteZero" target="_blank"><img class="image2" src="assets/images/waste.png"></a>
+					<a class="project-title" href="https://github.com/Pedram26/wasteZero" target="_blank"><h1> WasteZero </h1> </a>
+					<div class="project-desc">
+						Uses Deep Learning to detect wastes and classify them into their corresponding trash categories (Compost,
+						Recycle, or Landfill)
+					</div>
+				</div>
+				<div class="carousel-image">
+					<a href="https://github.com/Pedram26/Humans-vs-Aliens" target="_blank"><img class="image3" src="assets/images/alien2.jpeg"></a>
+					<a class="project-title" href="https://github.com/Pedram26/Humans-vs-Aliens" target="_blank"><h1> Humans vs Aliens </h1> </a>
+					<div class="project-desc">
+						A Tower Defense Game between Humans and Aliens built with PyGame. Kill as many aliens as you can to upgrade and discover new humans.
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	<script src="assets/js/script.js"></script>
+	</body>
+</html>
